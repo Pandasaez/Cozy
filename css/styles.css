@@ -305,6 +305,7 @@ textarea {
     margin-bottom: 40px;
 }
 
+/* Footer */
 footer {
     background-color: #4c3c32;
     color: white;
@@ -312,6 +313,15 @@ footer {
     padding: 20px 0;
 }
 
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    color: #7e685b;
+}
 
 /* Hero Section */
 .hero {
