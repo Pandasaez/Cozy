@@ -64,7 +64,7 @@ nav a:hover {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4c3c32;
+    background-color: #9e887a;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -123,4 +123,19 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+}
+
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    padding: 150px 0;
+    background-image: url('../img/caf.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    z-index: 1;
+    overflow: hidden;
 }
