@@ -156,14 +156,15 @@ nav a:hover {
     font-weight: bold;
 }
 
+/* About Us Section */
 .about {
-    padding: 100px 0;
+    padding: 80px 20px;
     text-align: center;
     background-color: #ede4d6;
 }
 
 .about h2 {
-    font-size: 30px;
+    font-size: 36px;
     margin-bottom: 20px;
 }
 
@@ -171,6 +172,17 @@ nav a:hover {
     font-size: 18px;
     max-width: 800px;
     margin: 0 auto;
+    line-height: 1.6;
+}
+
+.team-member img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 3px solid #4c3c32; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 10px;
 }
 
 .contact {
