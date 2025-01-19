@@ -1,4 +1,4 @@
-/* Reset some default styles */
+/* General styles */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
@@ -43,35 +43,72 @@ nav a:hover {
     color: #7e685b;
 }
 
+/* Hero Section */
 .hero {
+    position: relative;
     text-align: center;
     padding: 150px 0;
-    background-image: url('hero-bg.jpg');
+    background-image: url('../img/bg.jpg'); 
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
+    z-index: 1;
+    overflow: hidden;
 }
 
 .hero h1 {
-    font-size: 36px;
+    font-size: 48px;
     margin-bottom: 20px;
 }
 
 .hero p {
-    font-size: 18px;
+    font-size: 24px;
     margin-bottom: 40px;
 }
 
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #9e887a;
+    background-color: #e96412;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .cta-button:hover {
-    background-color: #7e685b;
+    background-color: #eb5c0a;
+}
+
+/* Featured Products Section */
+.featured-products {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #ecd2b6; /* You can choose any color here */
+}
+
+.featured-products h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.product {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 18px;
 }
 
 .menu {
